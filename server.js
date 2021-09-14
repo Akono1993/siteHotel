@@ -4,7 +4,7 @@ const express=require('express');
 const app=express();
 app.use(express.json())
 const mongoose=require('mongoose')
-mongoose.connect('mongodb://localhost:27017/hotel');
+//mongoose.connect('mongodb://localhost:27017/hotel');
 mongoose.Promise=global.Promise;
 //export clientroute
 const apiRoute=require('./api-router');
