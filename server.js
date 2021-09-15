@@ -80,8 +80,8 @@ app.get('/clients',function(req, res){
 })
 
 
-app.listen(process.env.port || 9090 , function(){
+/*app.listen(process.env.port || 9090 , function(){
     console.log("running server" );
 
-})
+})*/
 >>>>>>> 21896799635489afb4d622b81866d2cb9d54aa20
